@@ -7,3 +7,4 @@ Después, se añade una línea horizontal en y=40 utilizando la función axhline
 
 Finalmente, se añade una línea vertical en el punto de intersección utilizando la función axvline, y se marca el punto de intersección en la gráfica. Se añade una leyenda a la gráfica que incluye el valor del coeficiente de resistencia en el punto de intersección.
 
+Para el segundo ejercicio de Regla de Cramer el programa toma como entrada los coeficientes y los términos independientes de las ecuaciones. Luego, calcula los determinantes de la matriz principal y las matrices obtenidas al reemplazar una columna por los términos independientes. Finalmente, divide estos determinantes para obtener las soluciones del sistema.
