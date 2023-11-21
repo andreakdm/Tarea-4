@@ -14,7 +14,7 @@ fig, ax = plt.subplots(figsize=(5, 5))
 
 ax.plot(x, y, linewidth=2.0, label='Curva')
 ax.set(xlim=(0, 19), xticks=np.arange(1, 19,2),
-       ylim=(30, 81), yticks=np.arange(30, 81, 10))  # change y limit here
+       ylim=(30, 81), yticks=np.arange(30, 81, 10)) 
 
 # add horizontal line
 ax.axhline(40, color='r', linestyle='--', label='y=40')
